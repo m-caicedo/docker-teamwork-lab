@@ -1,0 +1,51 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+*.egg
+pip-log.txt
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Docker
+*.pid
+*.log
+*.tmp
+.docker/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test & coverage
+coverage/
+*.cover
+*.coverage
+.pytest_cache/
+htmlcov/
+
+# Misc
+dist/
+build/
+tmp/
