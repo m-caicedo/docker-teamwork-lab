@@ -113,7 +113,7 @@ CMD ["node", "server.js"]
 
 ## 🤝 Collaboration: Trunk-Based Development
 We will follow a **trunk-based workflow**:
-1. Everyone works on the **same main branch (`main` or `trunk`)**.
+1. Everyone uses **main branch (`main` or `trunk`)** as the single source of truth.
 2. Create a short-lived branch for your service:
    ```bash
    git checkout -b student01-service
